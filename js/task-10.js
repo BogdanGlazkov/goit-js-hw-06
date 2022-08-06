@@ -23,6 +23,7 @@ function createBoxes(amount) {
   }
 
   boxesEl.insertAdjacentHTML("afterbegin", markup);
+  boxSize = 30;
 };
 
 function destroyBoxes() {

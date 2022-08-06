@@ -11,4 +11,8 @@ inputEl.addEventListener("blur", (event) => {
       inputEl.classList.add("invalid");
       inputEl.classList.remove("valid");
   }
+
+   if (!event.currentTarget.value) {
+      inputEl.classList.remove("invalid");
+  }
 });
